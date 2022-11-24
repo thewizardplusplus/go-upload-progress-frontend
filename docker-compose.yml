@@ -1,0 +1,7 @@
+version: '3'
+services:
+  jsdoc:
+    build: .
+    ports:
+      - 9090:80
+    restart: always
